@@ -1,7 +1,7 @@
 import { useState } from 'react'
 import './App.css'
-import './Header.css'
 import Header from "./Header.jsx"
+import Calories from './Calories.jsx'
 
 function App() {
  
@@ -9,6 +9,7 @@ function App() {
   return (
     <>
       <Header/>
+      <Calories/>
     </>
   )
 }
